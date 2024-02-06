@@ -15,7 +15,7 @@ public class ContactForm extends JFrame {
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         Container container = super.getContentPane();
-        container.setLayout(new GridLayout(5,2,2,10));
+        container.setLayout(new GridLayout(10,2,2,10));
 
         JLabel name = new JLabel("Введите имя джуниора: ");
          nameField = new JTextField("",1);
