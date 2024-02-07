@@ -30,7 +30,7 @@ public class Car extends Transport implements ILights {
 
     @Override
     public void blinkLight() {
-        System.out.println("Мы моргаем фарами Vlad");
+        System.out.println("Мы моргаем фарами");
     }
 
     public static class ContactForm extends JFrame {
