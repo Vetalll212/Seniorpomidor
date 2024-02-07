@@ -27,7 +27,7 @@ public class ContactForm extends JFrame {
         container.add(email);
         container.add(emailField);
 
-        male = new JRadioButton("Мужской");
+        male = new JRadioButton("Мужицкий");
         female = new JRadioButton("Женский");
         check = new JCheckBox("Хочешь леща?", false);
         JButton send_button = new JButton("Отправить");
