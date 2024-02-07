@@ -2,14 +2,13 @@ import com.programmer.ILights;
 
 import javax.swing.*;
 import java.awt.*;
-
+// new string
 public class Car extends Transport implements ILights {
 
     private boolean isOn;
     public Car(float speed, int weight, String color, byte[] coordinate) {
 
-        super(speed, weight, color, coordinate);
-
+        super(speed, weight, color, coordinate); //new
     }
     public Engine engine = new Engine();
     @Override
@@ -17,6 +16,7 @@ public class Car extends Transport implements ILights {
         System.out.println("Наш обьект двигается со скоростью: " + speed);
     }
     public Car(){}
+
     @Override
     public boolean stopObject() {
         this.speed = 0;
@@ -31,7 +31,6 @@ public class Car extends Transport implements ILights {
     @Override
     public void blinkLight() {
         System.out.println("Мы моргаем фарами Vlad");
-
     }
 
     public static class ContactForm extends JFrame {
