@@ -10,9 +10,10 @@ public class ContactForm extends JFrame {
     JCheckBox check;
 
     public ContactForm(){
-        super("Обьективная реальность");
+        super("Новое окно1");
         super.setBounds(500,300,350,330);
         super.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
 
         Container container = super.getContentPane();
         container.setLayout(new GridLayout(5,2,2,5));
