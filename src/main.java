@@ -6,6 +6,7 @@ public class main {
         ContactForm form = new ContactForm();
         form.setVisible(true);
 
+
     }
 }
 
